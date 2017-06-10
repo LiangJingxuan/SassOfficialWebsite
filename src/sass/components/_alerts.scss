@@ -1,0 +1,31 @@
+/*! Alert */
+.alert{
+  @include padding-leader(0.5);
+  @include padding-trailer(0.5);
+  background: $alert-bgColor;
+  color: $alert-color;
+  p{
+    margin: 0;
+    @include padding-trailer(0);
+  }
+  a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #e6e6e6;
+
+    &:hover, &:focus{
+      text-decoration: underline;
+    }
+  }
+  ul{
+    margin: 0;
+    li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 32px;
+    }
+  }
+  &.stickers{
+    background: #036;
+  }
+}

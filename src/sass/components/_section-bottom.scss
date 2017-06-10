@@ -1,0 +1,12 @@
+.section-bottom{
+  .list-tiled{
+    li{
+      @include span(5);
+      list-style: none;
+      text-align: left;
+      h3{
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.banner{
+  margin: 0;
+  @include padding-leader(0.5);
+
+  .site-brand{
+    @include span(3);
+    text-align: left;
+    margin: 0;
+    img{
+      height: 96px;
+    }
+  }
+
+  .navigation{
+    @include span(8);
+    text-align: right;
+    ul{
+      li{
+        list-style: none;
+        display: inline-block;
+        line-height: 96px;
+      }
+    }
+    a{
+      padding: 0.75em 1em;
+      color: #c69;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: uppercase;
+      &:visited{
+        color: #b37399;
+      }
+      &:hover, &:focus{
+        color: #036;
+      }
+    }
+  }
+  .banner-toggle{
+    display: none;
+  }
+}
