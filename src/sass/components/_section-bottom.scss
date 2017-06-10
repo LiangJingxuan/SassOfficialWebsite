@@ -6,6 +6,10 @@
       @include span(5);
       list-style: none;
       text-align: left;
+
+      @include breakpoint($screen-xs){
+        @include span(12);
+      }
       h3{
         text-transform: uppercase;
         color: #808c99;

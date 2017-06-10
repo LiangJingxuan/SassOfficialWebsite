@@ -8,9 +8,11 @@
     margin: 0;
     img{
       height: 96px;
+      @include breakpoint($screen-xs){
+        width: 43px;
+      }
     }
   }
-
   .navigation{
     @include span(8);
     text-align: right;
@@ -34,8 +36,38 @@
         color: #036;
       }
     }
+    @include breakpoint($screen-xs){
+      display: none;
+    }
+  }
+  .container{
+    position: relative;
   }
   .banner-toggle{
     display: none;
+    position: absolute;
+    top: 0;
+    right: 16px;
+
+    button{
+      border: none;
+      background: transparent;
+      width: 48px;
+      height: 48px;
+    }
+
+    .icon-bar{
+      margin-top: .375em;
+      margin-bottom: .375em;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 32px;
+      height: 2px;
+      background-color: #c69;
+    }
+    @include breakpoint($screen-xs){
+      display: block;
+    }
   }
 }

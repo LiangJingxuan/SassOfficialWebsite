@@ -6,5 +6,9 @@
     line-height: 72px;
     letter-spacing: -2;
     margin: 0;
+
+    @include breakpoint($screen-xs){
+      font-size: 25px;
+    }
   }
 }

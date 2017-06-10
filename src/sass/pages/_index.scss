@@ -4,9 +4,15 @@
     text-align: left;
     display: table-cell;
     vertical-align: middle;
+
+    @include breakpoint($screen-xs){
+      width: span(12);
+      display: block;
+    }
   }
   .hero-image{
     @extend %col6-cell;
+    @extend %file-img;
     img{
       max-width: 100%;
       height: auto;
