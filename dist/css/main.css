@@ -54,5 +54,17 @@ html { font-family: "" source-sans-pro "," Helvetica Neue ",Helvetica,Arial,sans
 
 .page-header h1 { color: #808c99; font-weight: 100; font-size: 60px; line-height: 72px; letter-spacing: -2; margin: 0; }
 
+.section-bottom .list-tiled { padding-left: 0; text-align: left; }
 .section-bottom .list-tiled li { width: 40.67797%; float: left; margin-right: 1.69492%; list-style: none; text-align: left; }
-.section-bottom .list-tiled li h3 { text-transform: uppercase; }
+.section-bottom .list-tiled li h3 { text-transform: uppercase; color: #808c99; font-weight: 600; letter-spacing: 0.5px; }
+
+.contentinfo { font-size: 12px; text-align: left; color: #808c99; }
+.contentinfo ul { display: table; padding: 0; }
+.contentinfo ul li { list-style: none; display: table-cell; vertical-align: middle; }
+.contentinfo p { padding-bottom: 4.5px; margin: 0; }
+.contentinfo a { color: #484c55; text-decoration: none; }
+.contentinfo a:visited { color: #b37399; }
+.contentinfo .contentinfo-legal { width: 49.15254%; }
+.contentinfo .contentinfo-tools { width: 36.44068%; }
+.contentinfo .contentinfo-tools li { padding-right: 24px; }
+.contentinfo .contentinfo-social { width: 11.01695%; }

@@ -1,11 +1,16 @@
 .section-bottom{
   .list-tiled{
+    padding-left: 0;
+    text-align: left;
     li{
       @include span(5);
       list-style: none;
       text-align: left;
       h3{
         text-transform: uppercase;
+        color: #808c99;
+        font-weight: 600;
+        letter-spacing: 0.5px;
       }
     }
   }
