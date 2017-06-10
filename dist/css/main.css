@@ -68,3 +68,8 @@ html { font-family: "" source-sans-pro "," Helvetica Neue ",Helvetica,Arial,sans
 .contentinfo .contentinfo-tools { width: 36.44068%; }
 .contentinfo .contentinfo-tools li { padding-right: 24px; }
 .contentinfo .contentinfo-social { width: 11.01695%; }
+
+/*! Pages*/
+.index .hero-image, .index .introduction { width: 49.15254%; text-align: left; display: table-cell; vertical-align: middle; }
+.index .hero-image img { max-width: 100%; height: auto; }
+.index .introduction { padding-left: 20px; font-size: 24px; line-height: 36px; color: #699; }
