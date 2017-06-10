@@ -1,0 +1,14 @@
+.install{
+  h2{
+    font-size: 48px;
+    color: #699;
+    font-weight: 300;
+  }
+  .list-columns{
+    li{
+      @include span(6);
+      list-style: inside;
+      @extend %file-img;
+    }
+  }
+}

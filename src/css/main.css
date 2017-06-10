@@ -22,6 +22,9 @@ audio:not([controls]) { display: none; height: 0; }
 /*! Global */
 /*! Alert */
 /*! Pop-Stripe*/
+/*! Base */
+.install .list-columns li { max-width: 100%; height: auto; }
+
 /*! Layout */
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -73,3 +76,6 @@ html { font-family: "" source-sans-pro "," Helvetica Neue ",Helvetica,Arial,sans
 .index .hero-image, .index .introduction { width: 49.15254%; text-align: left; display: table-cell; vertical-align: middle; }
 .index .hero-image img { max-width: 100%; height: auto; }
 .index .introduction { padding-left: 20px; font-size: 24px; line-height: 36px; color: #699; }
+
+.install h2 { font-size: 48px; color: #699; font-weight: 300; }
+.install .list-columns li { width: 49.15254%; float: left; margin-right: 1.69492%; list-style: inside; }

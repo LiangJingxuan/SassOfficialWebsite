@@ -50,4 +50,6 @@ gulp.task('watch',function(){
         ])
 });
 
-gulp.task('default',['staticBuild','compassBuild','watch','browserSync'],function(){});
+// gulp.task('default',['staticBuild','compassBuild','watch','browserSync'],function(){});
+
+gulp.task('default',['watch','browserSync'],function(){});
