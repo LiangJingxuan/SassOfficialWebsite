@@ -22,9 +22,6 @@ audio:not([controls]) { display: none; height: 0; }
 /*! Global */
 /*! Alert */
 /*! Pop-Stripe*/
-/*! Base */
-.install .list-columns li { max-width: 100%; height: auto; }
-
 /*! Layout */
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -73,9 +70,31 @@ html { font-family: "" source-sans-pro "," Helvetica Neue ",Helvetica,Arial,sans
 .contentinfo .contentinfo-social { width: 11.01695%; }
 
 /*! Pages*/
+.install .list-columns li { max-width: 100%; height: auto; }
+
+.body a, .guide a { color: #c69; text-decoration: none; }
+.body a:hover, .guide a:hover, .body a:focus, .guide a:focus { color: #036; }
+.body a:visited, .guide a:visited { color: #b37399; }
+
+.content-primary { width: 66.10169%; float: left; margin-right: 1.69492%; }
+
+.content-secondary { width: 66.10169%; float: left; margin-right: 1.69492%; }
+
+.body { color: #699; }
+.body .introduction { font-size: 24px; line-height: 36px; padding-bottom: 36px; }
+.body ul { padding-left: 0; }
+.body li { list-style: none; }
+
 .index .hero-image, .index .introduction { width: 49.15254%; text-align: left; display: table-cell; vertical-align: middle; }
 .index .hero-image img { max-width: 100%; height: auto; }
 .index .introduction { padding-left: 20px; font-size: 24px; line-height: 36px; color: #699; }
 
+.community .introduction { margin: 0 auto; max-width: 900px; text-align: center; }
+.community .list-columns li { display: inline-block; width: 49.15254%; float: left; margin-right: 1.69492%; }
+
+.guide { text-align: left; }
+.guide .main .slides h2 { font-size: 49px; font-weight: 300; padding-bottom: 24px; }
+
+.install { text-align: center; }
 .install h2 { font-size: 48px; color: #699; font-weight: 300; }
 .install .list-columns li { width: 49.15254%; float: left; margin-right: 1.69492%; list-style: inside; }

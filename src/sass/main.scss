@@ -14,10 +14,6 @@
   "helpers/variables"
 ;
 
-/*! Base */
-@import
-  "base/page-base";
-
 /*! Layout */
 @import
   "layout/main";
@@ -33,7 +29,9 @@
 ;
 
 /*! Pages*/
-@import "pages/index"
+@import
+  "pages/page-base"
+, "pages/index"
 , "pages/community"
 , "pages/guide"
 , "pages/install"
